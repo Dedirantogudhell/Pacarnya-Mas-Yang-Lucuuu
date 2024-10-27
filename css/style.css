@@ -1,0 +1,49 @@
+/* General style for profile sections */
+header.profile,
+section.profile {
+    /* Aturan gaya yang sama untuk kedua elemen profil */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #333;
+}
+
+
+#profile1 {
+    background-color: #f7e2d1;
+}
+
+#profile2 {
+    background-color: #d1e7f7;
+}
+
+/* Center image and text */
+.profile img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile h1, .profile h2 {
+    margin: 10px 0;
+}
+
+/* Skill bars styling */
+.skills {
+    padding-top: 20px;
+}
+
+.progress {
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styling for languages list */
+.languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.languages ul li {
+    margin: 5px 0;
+}
